@@ -24,7 +24,7 @@ totalcostofitemsandtaxes = 0
 
 name = input('Please enter your name: ')
 print('Hello ' + name)
-print(input(name + ', please follow the prompts and enter your items: '))
+print(input(name + ', please follow the prompts and enter your items! '))
 
 item1 = int(input("Please enter the cost of the first item:"))
 item2 = int(input("Please enter the cost of the second item:"))
@@ -37,16 +37,15 @@ item8 = int(input("Please enter the cost of the eigth item:"))
 item9 = int(input("Please enter the cost of the ninth item:"))
 item10 = int(input("Please enter the cost of the tenth item:"))
 
-
 # PROCESSING
 
 totalcostofitems = (item1 + item2 + item3 + item4 + item5 + item6 + item7 + item8 + item9 + item10)
 taxes = totalcostofitems * 0.13
 totalcostofitemsandtaxes = taxes + totalcostofitems
 
-
 # OUTPUT
 
 print("The taxes of this items is: " + "$" + str(taxes))
 print("The cost of the total items without taxes is: " + "$" + str(totalcostofitems)) 
 print("The cost of total items with taxes: " + "$" + str (totalcostofitemsandtaxes))
+print(input('Thanks ' + name + ', for using this calculator. Have a good day!'))
