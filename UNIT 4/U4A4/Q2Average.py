@@ -1,7 +1,7 @@
 # NAME OF AUTHOR: Nyandea Lansana
 # NAME OF THE PROGRAM: Sum and Average Calculator 
 # DATE OF CREATION: Jan. 19, 2022
-# PURPOSE OF PROGRAM: To create a program that display sum and average based on the value numbers entered
+# PURPOSE OF PROGRAM: To create a program that display sum and average based on the numbers entered
 
 # Program Title
 print ("Sum and Average Calculator")
@@ -14,6 +14,7 @@ total = 0
 
 # INPUT
 # Read the first value entered and increase count of how many values were entered 
+# floating point if the number entered is a decimal
 value = float(input("Please enter a number and input 0 when you're finished: "))
 while value!= 0:
   total = total + value 
@@ -30,7 +31,7 @@ if count == 0:
   
 
 # OUTPUT
-# Else statement for when the value is isn't 0
+# Else statement for when the value isn't 0
 # Adds sum and divide by the count 
 else:
   average = total / count

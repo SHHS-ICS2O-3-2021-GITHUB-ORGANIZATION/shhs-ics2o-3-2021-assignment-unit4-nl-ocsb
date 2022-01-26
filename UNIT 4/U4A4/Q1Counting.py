@@ -20,7 +20,7 @@ large_number = int(input("What large number do you want to count to? Please ente
 countby = int(input("What number do you want to count by? Please enter an integer: "))
 
 # PROCESSING
-# Use while loop; count up from 1 to number inputted 
+# Use while loop; count up from 0 to number inputted 
 # Use while loop; countdown by the number entered
 # sleep function so it executes program one at a time
 # else and elif statement 
