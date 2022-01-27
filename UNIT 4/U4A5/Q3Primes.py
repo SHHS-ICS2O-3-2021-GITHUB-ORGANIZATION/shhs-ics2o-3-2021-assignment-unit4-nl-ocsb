@@ -25,7 +25,7 @@ secondnumber = 0
 firstnumber = int(input("\nEnter in an integer for a lower bound:"))
 secondnumber = int(input("Enter in an integer for an upperbound:"))
 
-time.sleep(1)
+time.sleep(2)
 
 #PROCESSING & OUTPUT
 print("\nPrime numbers between", firstnumber, "and", secondnumber, "are:")
